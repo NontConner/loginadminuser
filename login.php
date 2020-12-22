@@ -24,7 +24,7 @@
             $_SESSION['userlevel'] = $row['userlevel'];
 
             if ($_SESSION['userlevel'] == 'a') {
-                header("Location: admin_page.php");
+                header("Location: http://nontconner.github.io/ponlawat");
             }
 
             if ($_SESSION['userlevel'] == 'm') {
